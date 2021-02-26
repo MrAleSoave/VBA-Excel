@@ -1,10 +1,10 @@
 Dim num0 As Variant
 Dim num1 As Variant
-Dim sqr As Variant
+Dim sqr0 As Variant
 
   num0 = InputBox("insert first number")
   num1 = InputBox("insert second number")
-  sqr = Sqr(num)
+  sqr0 = sqr(num0)
 
 If num0 = (num1 * num1) Then
 
@@ -12,6 +12,6 @@ If num0 = (num1 * num1) Then
   
 Else
 
-  MsgBox ("no the square root is = " & sqr)
+  MsgBox ("no the square root is = " & sqr0)
   
 End If
