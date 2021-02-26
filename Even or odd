@@ -1,0 +1,15 @@
+Dim num As Double
+Dim value As Double
+
+num = InputBox("insert a number")
+value = num Mod 2    
+
+If value = 0 Then
+
+  MsgBox ("the number is even")
+  
+Else
+
+  MsgBox ("the number is odd")
+  
+End If
