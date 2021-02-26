@@ -2,16 +2,16 @@ Dim num0 As Variant
 Dim num1 As Variant
 Dim sqr As Variant
 
-  num0 = InputBox("insert firt number")
+  num0 = InputBox("insert first number")
   num1 = InputBox("insert second number")
   sqr = Sqr(num)
 
 If num0 = (num1 * num1) Then
 
-  MsgBox ("yes the second number is the sqare root")
+  MsgBox ("yes the second number is the square root")
   
 Else
 
-  MsgBox ("no the sqare root is = " & sqr)
+  MsgBox ("no the square root is = " & sqr)
   
 End If
