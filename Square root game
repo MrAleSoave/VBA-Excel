@@ -1,6 +1,6 @@
-Dim num0 As Integer
-Dim num1 As Integer
-Dim sqr As Integer
+Dim num0 As Variant
+Dim num1 As Variant
+Dim sqr As Variant
 
   num0 = InputBox("insert firt number")
   num1 = InputBox("insert second number")
