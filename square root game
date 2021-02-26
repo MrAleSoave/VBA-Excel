@@ -1,0 +1,17 @@
+Dim num0 As Integer
+Dim num1 As Integer
+Dim sqr As Integer
+
+  num0 = InputBox("insert firt number")
+  num1 = InputBox("insert second number")
+  sqr = Sqr(num)
+
+If num0 = (num1 * num1) Then
+
+  MsgBox ("yes the second number is the sqare root")
+  
+Else
+
+  MsgBox ("no the sqare root is = " & sqr)
+  
+End If
