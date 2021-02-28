@@ -1,14 +1,14 @@
-Dim num0 As Variant
-Dim num1 As Variant
-Dim sqr0 As Variant
+Dim num0 As Double
+Dim num1 As Double
+Dim sqr0 As Double
 
   num0 = InputBox("insert first number")
   num1 = InputBox("insert second number")
   sqr0 = sqr(num0)
 
-If num0 = (num1 * num1) Then
+If num0 = (num1 * num1) or num1 = (num0 * num0) Then
 
-  MsgBox ("yes the second number is the square root")
+  MsgBox ("yes the number is the square root")
   
 Else
 
