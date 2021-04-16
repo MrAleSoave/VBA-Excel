@@ -1,0 +1,26 @@
+Dim num1 As Double
+Dim num2 As Double
+Dim num3 As Double
+Dim media As Double
+
+
+num1 = InputBox("inserisci primo numero")
+num2 = InputBox("inserisci secondo numero")
+num3 = InputBox("inserisci terzo numero")
+
+media = (num1 + num2 + num3) \ 3
+
+If media >= 6 Then
+MsgBox ("promosso con " & media)
+
+Else
+
+MsgBox ("bocciato con " & media)
+
+End If
+
+
+
+
+
+
