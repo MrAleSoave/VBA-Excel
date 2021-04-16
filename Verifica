@@ -10,6 +10,8 @@ If scelta > 4 Then
 
 MsgBox ("errore prodotto inesistente")
 
+Exit Sub
+
 End If
 
 If scelta = 1 Then
@@ -65,7 +67,7 @@ If pagare > costo Then
 
 resto = pagare - costo
 
-resto = MsgBox("ecco a lei ") & resto
+resto = MsgBox("ecco a lei" & resto)
 
 End If
 
@@ -74,18 +76,6 @@ If pagare < costo Then
 
 resto = costo - pagare
 
-resto = MsgBox("mancano ") & resto
+resto = MsgBox("mancano " & resto)
 
 End If
-
-
-
-
-
-
-
-
-
-
-
-
