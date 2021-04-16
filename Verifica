@@ -1,0 +1,91 @@
+Dim costo As Double
+Dim scelta As Integer
+Dim pagare As Double
+Dim resto As Double
+
+
+scelta = InputBox("1_camel 2_camel_mini 3_sigari 4_diana")
+
+If scelta > 4 Then
+
+MsgBox ("errore prodotto inesistente")
+
+End If
+
+If scelta = 1 Then
+
+MsgBox ("hai scelto le camel, costano 5 €")
+
+costo = 5
+
+pagare = InputBox("inserisca i soldi")
+
+End If
+
+If scelta = 2 Then
+
+MsgBox ("hai scelto le camel mini, costano 2,50 €")
+
+costo = 2.5
+
+pagare = InputBox("inserisca i soldi")
+
+End If
+
+If scelta = 3 Then
+
+MsgBox ("hai scelto i sigari, costano 8,40  €")
+
+costo = 8.4
+
+pagare = InputBox("inserisca i soldi")
+
+End If
+
+If scelta = 4 Then
+
+MsgBox ("hai scelto le diana, costano 5 €")
+
+costo = 5
+
+pagare = InputBox("inserisca i soldi")
+
+End If
+
+
+If pagare = costo Then
+
+MsgBox ("soldi giusti, ecco a lei le sigarette")
+
+End If
+
+
+
+If pagare > costo Then
+
+resto = pagare - costo
+
+resto = MsgBox("ecco a lei ") & resto
+
+End If
+
+
+If pagare < costo Then
+
+resto = costo - pagare
+
+resto = MsgBox("mancano ") & resto
+
+End If
+
+
+
+
+
+
+
+
+
+
+
+
